@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* SIPS */
+.body-sips {
+    background: url(bg-img/kampus.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 -200px;
+}
+
+.container-sips-atas {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-sips-kiri {
+    display: flexbox;
+    margin-left: 100px;
+}
+
+.teks-sips-tengah {
+    display: flexbox;
+    text-align: center;
+    color: white;
+    font-family: 'inter';
+    font-weight: 800;
+    text-shadow: 0px 4px 4px #000;
+    margin-top: 70px;
+}
+
+.logo-sips-kanan {
+    display: flexbox;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.container-sips-tengah {
+    background-color: #d7dbe9;
+    width: fit-content;
+    padding: 15px 30px 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.lupa-password-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'inter';
+    font-weight: 600;
+}
+
+.username-sips-div {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.username-sips-input {
+    width: 380px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: gray;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.chapta-sips img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.chapta-input {
+    width: 380px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: gray;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.opsi-lupa-password {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #2a2a72;
+    text-decoration: underline;
+    font-family: 'inter';
+    font-size: 13px;
+}
+
+.opsi-lupa-password div {
+    display: flexbox;
+}
+
+.tombol-input {
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.tombol-input button {
+    width: 230px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #2a2a72;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* End SIPS */
+
+/* SIPS Login */
+.container-login-tengah {
+    background-color: #d7dbe9;
+    width: fit-content;
+    padding: 15px 30px 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.username-login-div {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.username-login-input {
+    width: 380px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: gray;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.password-login-div {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.password-login-input {
+    width: 380px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: gray;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+}
+
+.ingat-saya {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'inter';
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-section a{
+    font-family: 'inter';
+    color: #2a2a72;
+    font-size: 13px;
+}
+
+.tombol-masuk button{
+    width: 150px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #2a2a72;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* End SIPS Login */
+
+/* All Main */
+.main {
+    width: 81%;
+}
+/* End All Main */
+
+/* All Title Main Data */
+.title-main-data {
+    width: fit-content;
+    margin: 25px 0 30px 30px;
+    font-family: 'inter';
+}
+/* End All Title Main Data */
+
+/* Beranda */
+.navbar {
+    display: flex;
+    direction: ltr;
+    background-color: #000066;
+    height: fit-content;
+}
+
+.navbar-item-1 {
+    margin: 15px;
+    display: flexbox;
+    width: 3%;
+}
+
+.navbar-item-2 {
+    margin: 15px;
+    display: flexbox;
+    width: 3%;
+}
+
+.navbar-item-3 {
+    margin: 15px;
+    display: flexbox;
+    color: #fff;
+    font-family: 'inter';
+    width: 40%;
+}
+
+.navbar-item-4{
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 54%;
+    margin: 15px;
+}
+
+.navbar-item-4 button {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 545px;
+    background-color: #7a7a8e;
+}
+
+.aside button{
+    width: 150px;
+    padding: 7px;
+    margin: 30px 21% 10px;
+    border-radius: 10px;
+    background-color: #989898;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #989898;
+    cursor: pointer;
+}
+
+.aside button:hover {
+    background-color: #2a2a72;
+    border: 1px solid #2a2a72;
+    border-radius: 10px 0 10px 0;
+}
+
+.main-beranda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 81%;
+}
+
+.welcome-teks {
+    margin-top: 70px;
+    font-family: 'inter';
+}
+
+.main-logo {
+    margin-top: 75px;
+}
+
+/* End Beranda */
+
+/* Kelola Prestasi */
+.form-kelola-prestasi {
+    width: fit-content;
+    margin: 0 0 0 30px;
+    font-family: 'inter';
+}
+
+.value-form-kelola-prestasi {
+    width: 232px;
+    height: 1.8em;
+}
+
+.input-pjg {
+    width: 500px;
+    height: 1.8em;
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.input-pdk {
+    width: 150px;
+    height: 1.8em;
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.form-kelola-prestasi-button {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 25px;
+}
+
+.form-kelola-prestasi-button-1 {
+    display: flexbox;
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    font-family: 'inter';
+    color: #fff;
+    background-color: #ca2626;
+    border: 1px solid #ca2626;
+    cursor: pointer;
+}
+
+.form-kelola-prestasi-button-2 {
+    display: flexbox;
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    font-family: 'inter';
+    color: #fff;
+    background-color: #2a2a72;
+    border: 1px solid #2a2a72;
+    cursor: pointer;
+}
+/* End Kelola Prestasi */
+
+/* Data Mahasiswa */
+.tabel-main-data {
+    margin: 0 30px;
+    font-family: 'inter';
+    font-size: 13px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #2a2a72;
+    color: #fff;
+    border-bottom: 3px solid #000;
+}
+
+.row-ganjil {
+    background-color: #f9f9f9;
+}
+
+.row-genap {
+    background-color: #d2d2d2;
+}
