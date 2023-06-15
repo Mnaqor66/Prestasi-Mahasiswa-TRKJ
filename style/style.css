@@ -8,6 +8,27 @@
     src: url(font/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+/* Aside Warna Pas ditempat */
+#beranda {
+    background-color: #2a2a72;
+}
+
+#kelola-prestasi {
+    background-color: #2a2a72;
+}
+
+#data-mahasiswa {
+    background-color: #2a2a72;
+}
+
+#data-coach {
+    background-color: #2a2a72;
+}
+
+#data-dospem {
+    background-color: #2a2a72;
+}
+
 /* SIPS */
 .body-sips {
     background: url(bg-img/kampus.jpg); 
@@ -204,6 +225,14 @@
 }
 /* End All Main */
 
+/* Main-view Onlu */
+    .main-view {
+        width: auto;
+        padding: 20px 20px ;
+        text-align: center;
+    }
+/* end Main-view Onlu */
+
 /* All Title Main Data */
 .title-main-data {
     width: fit-content;
@@ -240,15 +269,41 @@
     width: 40%;
 }
 
+.navbar-item-3-view {
+    margin: 15px;
+    display: flexbox;
+    color: #fff;
+    font-family: 'inter';
+    width: 44%;
+}
+
 .navbar-item-4{
     display: flex;
     justify-content: flex-end;
     height: fit-content;
-    width: 54%;
+    width: 59%;
+    margin: 15px;
+}
+
+.navbar-item-4-view{
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 45%;
     margin: 15px;
 }
 
 .navbar-item-4 button {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+    cursor: pointer;
+}
+
+#login-button-viewer {
     width: 130px;
     height: 30px;
     border-radius: 10px;
@@ -397,3 +452,22 @@ table {
 .row-genap {
     background-color: #d2d2d2;
 }
+
+/* Tabel Prestasi View Only */
+
+.table-head-view {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+.row-ganjil-view {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+.row-genap-view {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+/* Tabel Prestasi View Only */
